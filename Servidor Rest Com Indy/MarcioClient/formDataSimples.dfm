@@ -1,0 +1,92 @@
+object frmDataSimples: TfrmDataSimples
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'frmDataSimples'
+  ClientHeight = 84
+  ClientWidth = 269
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 269
+    Height = 84
+    Align = alClient
+    BevelOuter = bvNone
+    Color = clSkyBlue
+    Padding.Left = 3
+    Padding.Top = 3
+    Padding.Right = 3
+    Padding.Bottom = 3
+    ParentBackground = False
+    TabOrder = 0
+    object Panel2: TPanel
+      Left = 3
+      Top = 3
+      Width = 263
+      Height = 42
+      Align = alClient
+      BevelOuter = bvNone
+      Color = clWhite
+      ParentBackground = False
+      TabOrder = 0
+      object dtData: TDateTimePicker
+        Left = 96
+        Top = 11
+        Width = 115
+        Height = 21
+        Date = 43506.000000000000000000
+        Time = 0.912887939812208000
+        TabOrder = 0
+      end
+      object StaticText2: TStaticText
+        Left = 52
+        Top = 13
+        Width = 31
+        Height = 17
+        Caption = 'Data:'
+        TabOrder = 1
+      end
+    end
+    object Panel3: TPanel
+      Left = 3
+      Top = 45
+      Width = 263
+      Height = 36
+      Align = alBottom
+      BevelOuter = bvNone
+      Color = clWhite
+      ParentBackground = False
+      TabOrder = 1
+      object Button1: TButton
+        Left = 40
+        Top = 5
+        Width = 75
+        Height = 25
+        Caption = 'Confirmar'
+        TabOrder = 0
+        OnClick = Button1Click
+      end
+      object Button2: TButton
+        Left = 136
+        Top = 5
+        Width = 75
+        Height = 25
+        Caption = 'Cancelar'
+        TabOrder = 1
+        OnClick = Button2Click
+      end
+    end
+  end
+end
