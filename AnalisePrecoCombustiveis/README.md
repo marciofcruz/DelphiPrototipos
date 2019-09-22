@@ -22,4 +22,9 @@ Desenvolvi o protótipo usando o Delphi Tokyo, sem frameworks, apenas a linguage
 
 O executável é em 64 bits e não possui dependências, ou seja, basta baixar e executar que funciona...
 
+Os fontes estão neste diretório e na pasta src, sendo:
 
+uPrincipal.pas/dfm - View das chamada
+src/MFC.Classes.Amostragem.pas - Classe onde principalmente fiz o cálculo da variância populacional
+src/MFC.CSVtoDataSet.pas - Importação do CSV original dentro de uma estrutura de dados para análise
+src/MFC.DM.Analise.pas - classe onde foram feita as análise pré estabelecidas.
